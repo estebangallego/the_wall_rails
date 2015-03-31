@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'stores/new'
+
   root "static_pages#index"
 
   get "static_pages/home"
